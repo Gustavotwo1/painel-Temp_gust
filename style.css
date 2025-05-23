@@ -67,7 +67,11 @@ body{
     border-radius: 17px ;
     width: 30%;
     text-align: center;
+    transition: transform 0.3s ease;
 
+}
+.forecast-card:hover, .weather-card:hover {
+    transform: scale(1.05);
 }
 .forecast-card p{
     font-family: "Montserrat", sans-serif;
